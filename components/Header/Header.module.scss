@@ -1,0 +1,58 @@
+.header{
+  background-color: #FFF4E2 !important;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  .leftPart{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    button{
+      color: #000;
+      margin-left: 18px ;
+      span{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .logo{
+      margin-left: 18px;
+    }
+    .searchForm{
+      position: relative;
+      margin-left: 35px;
+      svg{
+        position: absolute;
+        opacity: .7;
+        left: 10px;
+        top:6.5px;
+      }
+      input{
+        width: 328px;
+        height: 38px;
+        font-size: 16px;
+        border-radius: 10px;
+        padding-left: 40px;
+        background-color: #F2E8D6;
+        border: 1px solid transparent;
+        transition: all 150ms ease;
+        &:hover,
+        &:focus{
+          background-color: #fff;
+          border: 1px solid #FFC107;
+          box-shadow: 0 0 0 3px rgb(229 160 64 / 12%);
+        }
+      }
+    }
+  }
+  .rightMenu{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    svg{
+      color: black;
+    }
+  }
+}
